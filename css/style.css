@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(/fonts/Roboto-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Roboto Italic';
+    src: url(/fonts/Roboto-LightItalic.ttf) format('truetype');
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.header-section {
+    background-color: #1f2937;
+}
+.company-name {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding-left: 15%;
+}
+.header-navigation{
+    display: flex;
+    position: relative;
+    padding-right: 15%;
+    align-items: center;
+}
+.header-nav-links {
+    right: 15%;
+    display: flex;
+    position: absolute;
+}
+.link {
+    opacity: 80%;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    padding: 10px;
+}
+.header-text {
+    display: flex;
+    padding-left: 5.7%;
+    justify-content: space-around;
+}
+.header-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.about-the-card {
+    opacity: 80%;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.header-image-box {
+    position: relative;
+    display: inline-block;
+    padding: 50px;
+    right: 5.7%;
+}
+.header-image {
+   height: 350px;
+   width: 600px; 
+}
+.header-button {
+    position: relative;
+    left: 2%;
+    color: #F9FAF8;
+    border-radius: 8px;
+    background-color: #3882F6;
+    display: inline-block;
+    height: 35px;
+    width: 105px;
+}
+.header-button:hover {
+    cursor: pointer;
+}
+.header-button-text {
+    position: inherit;
+    bottom: 6px;
+    text-align: center;
+}
+.info-section {
+    display: flex;
+    justify-content: center;
+}
+.info-section-title {
+    padding: 20px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.info-section-main {
+    display: flex;
+    justify-content: center;
+}
+.info-section-pictureboxes {
+    margin: 20px 50px;
+}
+.info-section-picture {
+    border-radius: 12px;
+    border: 4px solid #3882F6;
+    height: 200px;
+    width: 200px;
+}
+.info-section-picture-text {
+    font-weight: 550;
+    color: rgb(116, 114, 114);
+    text-align: center;
+}
+.quote-section {
+    padding: 100px;
+    background-color: #E5E7EB;
+}
+.quote-text {
+    justify-content: center;
+    display: flex;
+    position: relative;
+    font-size: 36px;
+    font-family: 'Roboto Italic';
+    color: #1F2937;
+    opacity: 90%;
+}
+.quote-text-p {
+    position: relative;
+    display: inline-block;
+}
+.quote-text-signature {
+    margin-left: 71%;
+    display: inline-block;
+    position: relative;
+    font-size: 26px;
+    font-weight: 700;
+}
+.newsletter-section {
+    margin-left: 140px;
+    margin-right: 140px;
+    padding: 100px;
+    background-color: white;
+}
+.newsletter-text-section {
+    border-radius: 12px;
+    display: flex;
+    color: white;
+    background: #3882F6;
+}
+.newsletter-text {
+    left: 150px;
+    position: relative;
+    padding: 20px;
+    display: inline-block;
+}
+.newsletter-paragraph {
+    opacity: 95%;
+    font-weight: 500;
+}
+.newsletter-button {
+    margin-top: 60px;
+    left: 40%;
+    display: inline-block;
+    height: 35px;
+    width: 105px;
+    position: relative;
+    border-radius: 12px;
+    border: 2px solid #F9FAF8;
+}
+.newsletter-button-text {
+    position: inherit;
+    text-align: center;
+    bottom: 6px;
+    font-weight: 550;
+}
+.newsletter-button:hover {
+    cursor: pointer;
+}
+.footer-section {
+    padding: 15px;
+    background-color: #1F2937;
+}
+.footer-section-title {
+    text-align: center;
+    color: #F9FAF8;
+}
