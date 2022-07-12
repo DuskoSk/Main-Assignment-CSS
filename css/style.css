@@ -12,21 +12,21 @@
 .header-section {
     background-color: #1f2937;
 }
-.company-name {
-    font-size: 24px;
-    color: #F9FAF8;
-    padding-left: 15%;
+.company-logo {
+    left: 232px;
+    position: relative;
+    width: 200px;
+    height: 50px;
 }
 .header-navigation{
     display: flex;
+    justify-content: space-between;
     position: relative;
-    padding-right: 15%;
     align-items: center;
 }
 .header-nav-links {
+    position: relative;
     right: 15%;
-    display: flex;
-    position: absolute;
 }
 .link {
     opacity: 80%;
@@ -37,7 +37,7 @@
 }
 .header-text {
     display: flex;
-    padding-left: 5.7%;
+    padding-left: 5.3%;
     justify-content: space-around;
 }
 .header-title {
@@ -54,19 +54,20 @@
     position: relative;
     display: inline-block;
     padding: 50px;
-    right: 5.7%;
+    right: 135px;
 }
 .header-image {
-   height: 350px;
-   width: 600px; 
+    border-radius: 16px;
+    height: 280px;
+    width: 600px;
 }
 .header-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    left: 2%;
-    color: #F9FAF8;
     border-radius: 8px;
     background-color: #3882F6;
-    display: inline-block;
     height: 35px;
     width: 105px;
 }
@@ -74,9 +75,7 @@
     cursor: pointer;
 }
 .header-button-text {
-    position: inherit;
-    bottom: 6px;
-    text-align: center;
+    color: #F9FAF8;
 }
 .info-section {
     display: flex;
@@ -93,6 +92,7 @@
     justify-content: center;
 }
 .info-section-pictureboxes {
+    background-size: initial;
     margin: 20px 50px;
 }
 .info-section-picture {
@@ -101,8 +101,8 @@
     height: 200px;
     width: 200px;
 }
-.info-section-picture-text {
-    font-weight: 550;
+.info-section-label {
+    font-weight: 500;
     color: rgb(116, 114, 114);
     text-align: center;
 }
@@ -110,7 +110,7 @@
     padding: 100px;
     background-color: #E5E7EB;
 }
-.quote-text {
+.quote-textbox {
     justify-content: center;
     display: flex;
     position: relative;
@@ -119,7 +119,7 @@
     color: #1F2937;
     opacity: 90%;
 }
-.quote-text-p {
+.quote-text {
     position: relative;
     display: inline-block;
 }
@@ -155,18 +155,18 @@
 .newsletter-button {
     margin-top: 60px;
     left: 40%;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 8px;
     height: 35px;
     width: 105px;
-    position: relative;
-    border-radius: 12px;
     border: 2px solid #F9FAF8;
 }
 .newsletter-button-text {
-    position: inherit;
-    text-align: center;
-    bottom: 6px;
-    font-weight: 550;
+    color: #E5E7EB;
+    font-weight: 500;
 }
 .newsletter-button:hover {
     cursor: pointer;
@@ -178,4 +178,29 @@
 .footer-section-title {
     text-align: center;
     color: #F9FAF8;
+}
+#headquarters {
+    border-radius: 16px;
+}
+.him-header-text {
+    display: flex;
+    padding-left: 5%;
+    justify-content: space-around;
+}
+.him-header-image-box {
+    position: relative;
+    display: inline-block;
+    padding: 50px;
+    right: 106px;
+}
+.spec-header-text {
+    display: flex;
+    padding-left: 11%;
+    justify-content: space-around; 
+}
+.spec-header-image-box {
+    position: relative;
+    display: inline-block;
+    padding: 50px;
+    right: 100px;
 }
