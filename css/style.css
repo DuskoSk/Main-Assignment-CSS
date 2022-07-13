@@ -99,6 +99,8 @@
 .info-section-pictureboxes {
     background-size: initial;
     margin: 20px 50px;
+    scale: 1;
+    transition: transform linear 300ms;
 }
 .info-section-picture {
     border-radius: 12px;
@@ -226,5 +228,8 @@
 	margin-top:22px;
 }
 .float:hover {
-    color: red;
+    color: yellow;
+}
+.info-section-pictureboxes:hover {
+    transform: scale(1.25);
 }
