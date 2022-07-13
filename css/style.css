@@ -225,3 +225,6 @@
 .my-float{
 	margin-top:22px;
 }
+.float:hover {
+    color: red;
+}
