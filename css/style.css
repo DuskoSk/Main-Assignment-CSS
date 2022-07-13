@@ -35,6 +35,10 @@
     text-decoration: none;
     padding: 10px;
 }
+.link:hover {
+    color: rgb(255, 255, 255);
+    opacity: 100%;
+}
 .header-text {
     display: flex;
     padding-left: 5.3%;
@@ -71,11 +75,12 @@
     height: 35px;
     width: 105px;
 }
-.header-button:hover {
-    cursor: pointer;
-}
 .header-button-text {
     color: #F9FAF8;
+}
+.header-button:hover {
+    box-shadow: 2px 2px 3px rgb(206, 204, 204);
+    cursor: pointer;
 }
 .info-section {
     display: flex;
@@ -141,6 +146,7 @@
     display: flex;
     color: white;
     background: #3882F6;
+    box-shadow: 4px 4px 5px gray;
 }
 .newsletter-text {
     left: 150px;
@@ -163,12 +169,12 @@
     height: 35px;
     width: 105px;
     border: 2px solid #F9FAF8;
-}
-.newsletter-button-text {
     color: #E5E7EB;
     font-weight: 500;
 }
 .newsletter-button:hover {
+    color: #3882F6;
+    background-color: #F9FAF8;
     cursor: pointer;
 }
 .footer-section {
@@ -184,14 +190,14 @@
 }
 .him-header-text {
     display: flex;
-    padding-left: 5%;
+    padding-left: 5.8%;
     justify-content: space-around;
 }
 .him-header-image-box {
     position: relative;
     display: inline-block;
     padding: 50px;
-    right: 106px;
+    right: 117px;
 }
 .spec-header-text {
     display: flex;
@@ -203,4 +209,19 @@
     display: inline-block;
     padding: 50px;
     right: 100px;
+}
+.float {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color: #3882F6;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    box-shadow: 2px 2px 3px #999;
+}
+.my-float{
+	margin-top:22px;
 }
