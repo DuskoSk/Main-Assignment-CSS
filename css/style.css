@@ -41,7 +41,7 @@
 }
 .header-text {
     display: flex;
-    padding-left: 5.3%;
+    padding-left: 7%;
     justify-content: space-around;
 }
 .header-title {
@@ -58,7 +58,7 @@
     position: relative;
     display: inline-block;
     padding: 50px;
-    right: 115px;
+    right: 100px;
 }
 .header-image {
     border-radius: 16px;
@@ -192,25 +192,25 @@
 }
 .him-header-text {
     display: flex;
-    padding-left: 5.8%;
+    padding-left: 7.1%;
     justify-content: space-around;
 }
 .him-header-image-box {
     position: relative;
     display: inline-block;
     padding: 50px;
-    right: 117px;
+    right: 106px;
 }
 .spec-header-text {
     display: flex;
-    padding-left: 11%;
+    padding-left: 12%;
     justify-content: space-around; 
 }
 .spec-header-image-box {
     position: relative;
     display: inline-block;
     padding: 50px;
-    right: 100px;
+    right: 88px;
 }
 .float {
     position:fixed;
